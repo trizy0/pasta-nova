@@ -1,0 +1,45 @@
+/* id # */
+/* class . */
+div {
+    height: 200px;
+    width: 200px; 
+}
+#caixa{
+    border-radius: 100px;
+    animation: normal mudarcor 3s ease-in-out forwards;
+    
+    
+}
+@keyframes mudarcor {
+    from{
+        background-color: pink;
+        border-radius: 0%;
+
+    }
+    to{
+        background-color: blueviolet;
+        border-radius: 100px;
+    }
+}
+#caixa02{
+    background-color: rgb(127, 157, 255);
+    animation: infinite girar 5s ease-in-out;
+}
+
+@keyframes girar {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+/*scale meche com o tamanho*/
+/*rotate roda no proprio eixo */
+/* translate meche com a posicao do elemento x e y */
